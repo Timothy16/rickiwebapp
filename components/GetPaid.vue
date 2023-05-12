@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row get-paid">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="/img/getpaid.svg" class="img-s-paid" data-aos="fade-right" data-aos-duration="800" alt="" srcset="" />
+                <img src="/img/getpaid.png" class="img-s-paid" data-aos="fade-right" data-aos-duration="800" alt="" srcset="" />
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="get-paid-text">

@@ -18,7 +18,7 @@
                 </div>
             </div> 
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="/img/ratecalculator.svg" data-aos="fade-up" data-aos-duration="800" class="img-rate" alt="" srcset="" />
+                <img src="/img/ratecalculator.png" data-aos="fade-up" data-aos-duration="800" class="img-rate" alt="" srcset="" />
             </div>           
         </div>
     </div>
