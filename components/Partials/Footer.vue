@@ -3,7 +3,7 @@
         <div class="footer-header">
             Choose Ricki when trading giftcards. <span style="color: #492ED5;">Get started.</span> 
         </div>
-        <div class="button-section mt-5 text-center">
+        <div class="button-section mt-5 text-center v">
             <NuxtLink to="https://play.google.com/store/apps/details?id=com.app.ricki" target="_blank">
                 <nuxt-img src="/img/Android.svg" class="img-fluid link-trans" alt="" srcset="" /> &nbsp;&nbsp;
             </NuxtLink>
