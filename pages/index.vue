@@ -6,7 +6,7 @@
         </Head>
         <Hero />
         <Advert />
-        <GetPaid />
+        <GetPaid /> 
         <RateCalculator />
         <Reasons />
         <Testimonial />

@@ -10,7 +10,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button> -->
                     <NuxtLink to="https://web.ricki.app" target="_blank" class="d-on-mobile">
-                        <div class="download-btn link-trans">Trade on Web App</div>
+                        <div class="download-btn link-trans">Trade on Website</div>
                     </NuxtLink>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -29,7 +29,7 @@
                         
                         </ul>
                         <NuxtLink to="https://web.ricki.app" target="_blank">
-                            <div class="download-btn link-trans">Trade on Web App</div>
+                            <div class="download-btn link-trans">Trade on Website</div>
                         </NuxtLink>
                     </div>
                 </div>

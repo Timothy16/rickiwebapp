@@ -58,7 +58,7 @@ export default {
     methods: {
         moveRight() {
             const carousel = this.$refs.items
-            carousel.style.transform = 'translateX(-55rem)'
+            carousel.style.transform = 'translateX(-45rem)'
         },
         moveRight2() {
             const carousel = this.$refs.items

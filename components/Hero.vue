@@ -10,18 +10,18 @@
                     </p>
                     <div class="button-section animate__animated animate__fadeInLeft animate__slow animate__delay-2s">
                         <NuxtLink to="https://play.google.com/store/apps/details?id=com.app.ricki" target="_blank">
-                            <img src="/img/Android.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;&nbsp;
+                            <img src="/img/Android.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;
                         </NuxtLink>
                         <NuxtLink to="https://apps.apple.com/us/app/id6444379776" target="_blank">
-                             <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;&nbsp;
+                             <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;
                         </NuxtLink>
                        
                         <NuxtLink to="https://web.ricki.app" target="_blank">
-                            <img src="/img/Buttton.svg" class="img-fluid link-trans mobile-button"   alt="" srcset="" />
+                            <img src="/img/Buttton-web-w.svg" class="img-fluid link-trans mobile-button-trade"   alt="" srcset="" />
                         </NuxtLink>
                     </div>
                     <div class="rate-s-h animate__animated animate__fadeInLeft animate__slow animate__delay-3s">
-                        <img src="/img/rate.svg" class="img-fluid mobile-rate" alt="" srcset="" />
+                        <img src="/img/rating-store.svg" class="img-fluid mobile-rate" alt="" srcset="" />
                     </div>
                 </div>
                 <!-- <div class="col-lg-4 col-md-12 col-sm-12">

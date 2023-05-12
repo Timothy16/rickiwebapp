@@ -109,11 +109,13 @@ html {
             font-size: 2.5rem !important;
             line-height: 45px !important;
             width: 100%;
+            text-align: center;
         }
         @media only screen and (max-width: 768px) {
             font-size: 4rem;
             line-height: 60px;
             width: 100%;
+            text-align: center;
         }
     }
     .banner-text{
@@ -131,12 +133,14 @@ html {
             line-height: 20px !important;
             width: 100%;
             margin-bottom: 1rem;
+            text-align: center;
         }
         @media only screen and (max-width: 768px) {
             font-size: 1rem;
             line-height: 25px;
             width: 100%;
             margin-bottom: 1rem;
+            text-align: center;
         }
     }
     .phone-2-s{
@@ -154,7 +158,9 @@ html {
         right: 150px;
         width: 600px;
         height: 700px;
-        // top: -250px;        
+        // top: -250px;   
+       
+
     }
     .phone-22-s{
         position: relative;
@@ -162,6 +168,12 @@ html {
         left: -180px;
         width: 330px;
         height: 560px;
+
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            left: -80px;
+            width: 500px;
+            height: 500px;
+        }
 
     }
     .s-m-hero{
@@ -174,7 +186,12 @@ html {
         right: 150px;
         width: 600px;
         height: 700px;
-        // top: -250px;        
+        // top: -250px; 
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            right: 0px;
+            width: 500px;
+            height: 500px;
+        }       
     }
     .rate-s-h{
         margin-top: 10rem;
@@ -183,10 +200,15 @@ html {
         @media only screen and (max-width: 578px) {
             margin-top: 2rem;
             padding-bottom: 1rem;
+            text-align: center;
         }
         @media only screen and (max-width: 768px) {
             margin-top: 2rem;
             padding-bottom: 1rem;
+            text-align: center;
+        }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            margin-top: 2rem;
         }
     }
     .mobile-rate{
@@ -243,13 +265,18 @@ html {
         // width: 55rem;
 
         @media only screen and (max-width: 578px) {
-            left: 0;
+            left: 0 !important;
             width: 100%;
            
         }
         @media only screen and (max-width: 768px) {
-            left: 0;
+            left: 0 !important;
             width: 100%;
+        }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            width: 100% !important;
+            position: relative;
+            left: 40px ;
         }
     }
     
@@ -262,6 +289,10 @@ html {
         @media only screen and (max-width: 768px) {
             padding: .1rem;
         }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            padding: .1rem;
+        }
+        
     }
 
     .paid-header{
@@ -287,7 +318,9 @@ html {
             width: 100%;
             font-size: 1rem;
             line-height: 25px;
-
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 100%;
         }
     }
     // rate
@@ -304,8 +337,13 @@ html {
         }
         @media only screen and (max-width: 768px) {
             position: relative;
-            width: 100%;
+            width: 100% !important;
             margin-top: 4rem;
+        }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            width: 100% !important;
+            position: relative;
+            right: 0px ;
         }
     }
     .rate-header{
@@ -328,6 +366,9 @@ html {
         @media only screen and (max-width: 768px) {
             padding: .1rem ;
         }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
+            padding: .1rem;
+        }
     }
     
 }
@@ -338,6 +379,9 @@ html {
         margin-top: 4rem;
     }
     @media only screen and (max-width: 768px) {
+        margin-top: 4rem;
+    }
+    @media only screen and (max-width: 1024px) and (max-width: 1249px) {
         margin-top: 4rem;
     }
 
@@ -591,8 +635,8 @@ html {
     width: max-content;
     margin-left: 1rem;
     align-items: flex-start;
-    grid-gap: 4rem;
-    gap: 4rem;
+    // grid-gap: 2rem;
+    // gap: 2rem;
     transition: all 0.3s ease-in-out;
 
     @media only screen and (max-width: 578px) {
@@ -678,6 +722,14 @@ a{
     }
     @media only screen and (max-width: 768px) {
         width: 31%;
+    }
+}
+.mobile-button-trade{
+    @media only screen and (max-width: 578px) {
+        width: 34% !important;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 34%;
     }
 }
 .phone-m-d {
