@@ -17,7 +17,7 @@
         </div>
         <div class="footer-last-s">
             <div class="section-f-d">
-                <div class="text-footer-d">Terms of Service</div>
+                <div class="text-footer-d d">Terms of Service</div>
                 <div class="text-footer-d m-f-l">Privacy Policy</div>
                 <div class="text-footer-d m-f-l">2022 © Copyright Ricki.app</div>
             </div>
