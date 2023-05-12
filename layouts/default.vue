@@ -36,7 +36,7 @@
     }
 
     .top-down{
-        padding-top: 8rem !important;
+        padding-top: 2rem !important;
     }
 }
 @media screen and (max-width : 768px) {
@@ -47,7 +47,7 @@
         /* display: block; */
     }
     .top-down{
-        padding-top: 7rem !important;
+        padding-top: 7rem ;
     }
    
 }

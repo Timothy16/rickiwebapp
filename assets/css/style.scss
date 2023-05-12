@@ -18,6 +18,20 @@ html {
     background: $primaryColor;
     padding: 14px 0;
 
+    @media only screen and (max-width: 578px) {
+        padding: 14px 0;
+    }
+
+    .d-on-mobile {
+        display: none;
+
+        @media only screen and (max-width: 578px) {
+            display: block;
+        }
+        @media only screen and (max-width: 768px) {
+            display: block;
+        }
+    }
     .download-btn {
         background-color: $colorText;
         font-size: 1rem;
@@ -27,6 +41,15 @@ html {
         border-radius: 100px;
         color: #1C1155;
         cursor: pointer;
+
+        @media only screen and (max-width: 578px) {
+            font-size: .8rem;
+            padding: 14px 20px;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: .8rem;
+            padding: 14px 20px;
+        }
     }
     li a{
         font-weight: 400 !important;
@@ -48,12 +71,50 @@ html {
     padding-top: 5rem;
     height: auto;
 
+    @media only screen and (max-width: 578px) {
+        padding-bottom: 1rem;
+    }
+
+    .mockup-d-m{
+        display: none;
+
+        @media only screen and (max-width: 578px) {
+            display: block;
+        }
+        @media only screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    .mockup-d{
+       
+        
+        @media only screen and (max-width: 578px) {
+            display: none;
+        }
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    
     .banner-header{
         font-weight: 700;
         font-size: 5rem;
         line-height: 108px;
         color: $colorText;
         // width: 855px;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 2.5rem !important;
+            line-height: 45px !important;
+            width: 100%;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 4rem;
+            line-height: 60px;
+            width: 100%;
+        }
     }
     .banner-text{
         font-weight: 500;
@@ -64,6 +125,19 @@ html {
         width: 590px;
         margin-top: 1rem;
         margin-bottom: 2rem;
+
+        @media only screen and (max-width: 578px) {
+            font-size: .8rem !important;
+            line-height: 20px !important;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 1rem;
+            line-height: 25px;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
     }
     .phone-2-s{
         position: relative;
@@ -86,11 +160,14 @@ html {
         position: relative;
         top: 150px;
         left: -180px;
-        // height: 80%;
-        // width: 100%;
         width: 330px;
         height: 560px;
-        // z-index: 9001;
+
+    }
+    .s-m-hero{
+        @media only screen and (max-width: 578px) {
+            margin: .1rem 4rem;
+        }
     }
     .phone-11-s{
         position: absolute;
@@ -102,6 +179,23 @@ html {
     .rate-s-h{
         margin-top: 10rem;
         padding-bottom: 5rem;
+
+        @media only screen and (max-width: 578px) {
+            margin-top: 2rem;
+            padding-bottom: 1rem;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-top: 2rem;
+            padding-bottom: 1rem;
+        }
+    }
+    .mobile-rate{
+        @media only screen and (max-width: 578px) {
+            width: 50% !important;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 60%;
+        }
     }
 }
 // advert
@@ -111,24 +205,63 @@ html {
     padding-top: 4rem;
     padding-bottom: 4rem;
 
+    @media only screen and (max-width: 578px) {
+        width: 100%;
+        padding: 1rem;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding: 1rem;
+    }
+
     .img-ss{
         mix-blend-mode: luminosity;
         opacity: 0.5;
+
+        @media only screen and (max-width: 578px) {
+            width: 95%;
+            padding: 1rem;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 95%;
+            padding: 1rem;
+        }
+
     }
 }
 // get-paid
 .get-paid{
     margin-top: 3rem;
 
+    @media only screen and (max-width: 578px) {
+        margin-top: 1rem;
+    }
     .img-s-paid{
         position: relative;
         left: -80px;
         z-index: -1;
         // width: 55rem;
+
+        @media only screen and (max-width: 578px) {
+            left: 0;
+            width: 100%;
+           
+        }
+        @media only screen and (max-width: 768px) {
+            left: 0;
+            width: 100%;
+        }
     }
     
     .get-paid-text{
         padding: 17rem 0 0 4rem;
+
+        @media only screen and (max-width: 578px) {
+            padding: .1rem;
+        }
+        @media only screen and (max-width: 768px) {
+            padding: .1rem;
+        }
     }
 
     .paid-header{
@@ -136,6 +269,10 @@ html {
         font-size: 4rem;
         // line-height: 100px;
         color: $secondaryColor;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 2.5rem;
+        }
     }
     .paid-text{
         font-weight: 500;
@@ -145,6 +282,13 @@ html {
         opacity: 0.6;
         width: 609px;
         padding-top: 1rem;
+
+        @media only screen and (max-width: 578px) {
+            width: 100%;
+            font-size: 1rem;
+            line-height: 25px;
+
+        }
     }
     // rate
     .img-rate {
@@ -152,6 +296,17 @@ html {
         // width: 700px;
         position: absolute;
         right: 0;
+
+        @media only screen and (max-width: 578px) {
+            position: relative;
+            width: 100%;
+            margin-top: 4rem;
+        }
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            width: 100%;
+            margin-top: 4rem;
+        }
     }
     .rate-header{
         font-weight: $fontWeight;
@@ -159,14 +314,32 @@ html {
         // line-height: 100px;
         color: $secondaryColor;
         // width: 881px;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 2.5rem;
+            line-height: 50px;
+        }
     }
     .rate-s-h{
         padding: 17rem 0 0 0;
+        @media only screen and (max-width: 578px) {
+            padding: .1rem ;
+        }
+        @media only screen and (max-width: 768px) {
+            padding: .1rem ;
+        }
     }
+    
 }
 // reason section
 .reason-section{
     margin-top: 35rem;
+    @media only screen and (max-width: 578px) {
+        margin-top: 4rem;
+    }
+    @media only screen and (max-width: 768px) {
+        margin-top: 4rem;
+    }
 
     .reason-header{
         font-weight: $fontWeight;
@@ -174,6 +347,14 @@ html {
         line-height: 100px;
         color: $secondaryColor;
         text-align: center;
+        @media only screen and (max-width: 578px) {
+            font-size: 2.5rem;
+            line-height: 50px;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            line-height: 50px;
+        }
     }
     .padding-reason{
         padding-left: 1rem;
@@ -184,9 +365,29 @@ html {
         font-size: 2.5rem;
         line-height: 54px;
         color: $secondaryColor;
+        @media only screen and (max-width: 578px) {
+            font-size: 1.5rem;
+            line-height: 40px;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 1.5rem;
+            line-height: 40px;
+        }
     }
     .row-reason{
         margin-top: 5rem;
+        @media only screen and (max-width: 578px) {
+            margin-top: 2rem;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-top: 2rem;
+        }
+    }
+    .box-down{
+        margin-bottom: 3rem;
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 1rem;
+        }
     }
     .reason-text{
         font-weight: 500;
@@ -195,15 +396,41 @@ html {
         color: $secondaryColor;
         opacity: 0.6;
         margin-top: 1rem;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 1rem;
+            line-height: 20px;
+            margin-top: .3rem;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 1rem;
+            line-height: 20px;
+            margin-top: .3rem;
+        }
     }
     .img-up{
         position: relative;
         top: -5px;
         width: 65px;
         height: 65px;
+        @media only screen and (max-width: 578px) {
+            width: 45px;
+            height: 45px;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 45px;
+            height: 45px;
+        }
     }
     .d-space-m{
         padding: .1rem 2.5rem;
+
+        @media only screen and (max-width: 578px) {
+            padding: .1rem;
+        }
+        @media only screen and (max-width: 768px) {
+            padding: .1rem;
+        }
     }
 }
 .footer-section{
@@ -217,9 +444,45 @@ html {
         // line-height: 103px;
         margin: auto;
         width: 70%;
+
+        @media only screen and (max-width: 578px) {
+            width: 100%;
+            font-size: 2rem;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            font-size: 2rem;
+        }
+    }
+    .button-down{
+        margin-top: 3rem;
+        @media only screen and (max-width: 578px) {
+            margin-top: 1rem; 
+        }
     }
     .section-f-d{
         display: flex;
+
+        @media only screen and (max-width: 578px) {
+            display: block;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px) {
+            display: block;
+            margin-top: 2rem;
+            text-align: center;
+        }
+    }
+    .social-m{
+        @media only screen and (max-width: 578px) {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-top: 2rem;
+            text-align: center;
+        }
     }
     .text-footer-d{
         color: $primaryColor;
@@ -229,11 +492,25 @@ html {
     }
     .m-f-l {
         margin-left: 2rem;
+        @media only screen and (max-width: 578px) { 
+            margin-left: .1rem;
+            margin-top: .3rem   ;
+        }
     }
     .footer-last-s{
         margin: 10rem 0 3rem 0 ;
         display: flex;
         justify-content: space-between;
+
+        @media only screen and (max-width: 578px) {
+            margin: .3rem ;
+            display: block;
+           
+        }
+        @media only screen and (max-width: 768px) {
+            margin: .3rem ;
+            display: block;
+        }
     }
 }
 .testimonial-bg{
@@ -241,6 +518,14 @@ html {
     padding: 8rem 0 8rem 0;
     margin: 4rem 0;
     overflow-x: hidden;
+
+    @media only screen and (max-width: 578px) {
+        padding: 2rem 0;
+        
+    }
+    @media only screen and (max-width: 768px) {
+        padding: 3rem 0;
+    }
 
     .testimonial-header {
         color: $colorText;
@@ -250,6 +535,15 @@ html {
         text-align: center;
         width: 50%;
         margin: auto;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 2.5rem;
+            width: 100%;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            width: 100%;
+        }
     }
     .arrow-s {
         margin: 5rem 0 2rem 0;
@@ -278,6 +572,8 @@ html {
 .link-trans{
     transition: 0.3s ease-in-out;
     z-index: 9001 !important; 
+
+   
 }
 // carousel
 .carousel{
@@ -299,6 +595,10 @@ html {
     gap: 4rem;
     transition: all 0.3s ease-in-out;
 
+    @media only screen and (max-width: 578px) {
+        margin-top: 4rem;
+    }
+
     .testimonail-p{
         text-align: center;
         padding: 50px 66px;
@@ -307,6 +607,17 @@ html {
         height: 608.93px;
         background: #EDEAFA;
         border-radius: 62.3316px;
+
+        @media only screen and (max-width: 578px) {
+            width: 20rem !important;
+            height: auto;
+            padding: 2rem;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 45rem ;
+            height: auto;
+           
+        }
     }
     .profile-text{
         font-weight: 500;
@@ -315,9 +626,17 @@ html {
         text-align: center;
         color: #150D40;
         padding-top: 3rem;
+
+        @media only screen and (max-width: 578px) {
+            font-size: 1rem;
+            line-height: 23px;
+        }
     }
     .profile-star{
         padding-top: 4rem;
+        @media only screen and (max-width: 578px) {
+            padding-top: 2rem;
+        }
     }
     h6{
         font-weight: 400;
@@ -327,9 +646,23 @@ html {
         color: $secondaryColor;
         opacity: 0.4;
         padding-top: 2rem;
+        @media only screen and (max-width: 578px) {
+            font-size: 1rem;
+            padding-top: 1rem;
+        }
     }
     .testi-p-3{
         margin-left: 4rem;
+    }
+    .edit-img{
+        @media only screen and (max-width: 578px) {
+            width: 60px !important;
+        }
+    }
+    .edit-img-1{
+        @media only screen and (max-width: 578px) {
+            width: 30px !important;
+        }
     }
 }
 
@@ -339,3 +672,30 @@ html {
 a{
     text-decoration: none;
 }
+.mobile-button{
+    @media only screen and (max-width: 578px) {
+        width: 29% !important;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 31%;
+    }
+}
+.phone-m-d {
+    display: none;
+    @media only screen and (max-width: 578px) {
+        display: block;
+    }
+    @media only screen and (max-width: 768px) {
+        display: block;
+    }
+}
+.phone-d-d {
+   
+    @media only screen and (max-width: 578px) {
+        display: none;
+    }
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+

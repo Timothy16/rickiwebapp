@@ -1,6 +1,9 @@
 <template>
     <div class="container">
         <div class="row get-paid">
+            <div class="col-lg-6 col-md-12 col-sm-12 phone-m-d">
+                <img src="/img/ratecalculator.png" data-aos="fade-up" data-aos-duration="800" class="img-rate" alt="" srcset="" />
+            </div>   
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="rate-s-h">
                     <div class="rate-header">Get The Hottest Rates With Our Rate Calculator.</div>
@@ -9,15 +12,15 @@
                     </p>
                     <div class="button-section">
                         <NuxtLink to="https://play.google.com/store/apps/details?id=com.app.ricki" target="_blank">
-                            <img src="/img/Android.svg" class="img-fluid link-trans" alt="" srcset="" /> &nbsp;&nbsp;
+                            <img src="/img/Android.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;&nbsp;
                         </NuxtLink>
                         <NuxtLink to="https://apps.apple.com/us/app/id6444379776" target="_blank">
-                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans" alt="" srcset="" />
+                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" />
                         </NuxtLink>
                     </div>
                 </div>
             </div> 
-            <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 phone-d-d">
                 <img src="/img/ratecalculator.png" data-aos="fade-up" data-aos-duration="800" class="img-rate" alt="" srcset="" />
             </div>           
         </div>
