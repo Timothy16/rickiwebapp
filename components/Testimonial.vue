@@ -29,17 +29,17 @@
                 </div>
                 <div class="testimonail-p testi-p-3 ">
                     <div class="profile-p">
-                        <img src="/img/david.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/david.svg" class="img-up edit-img" alt="" srcset="" />
                     </div>
                     <div class="profile-text">
                         1. The design is simple and user friendly 2. The rate the app offers is the best. 3.the transaction is fast. There is no delay in transaction. 4.the payment is fast. 5. I strongly recommend it.
                     </div>  
                     <div class="profile-star">
-                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <img src="/img/half-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up edit-img-1" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up edit-img-1" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up edit-img-1" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up edit-img-1" alt="" srcset="" />
+                        <img src="/img/half-star.svg" class="img-up edit-img-1" alt="" srcset="" />
                     </div>
                     <h6>DAVID OMADIVI</h6>
                 </div>
@@ -62,7 +62,7 @@ export default {
         },
         moveRight2() {
             const carousel = this.$refs.items
-            carousel.style.transform = 'translateX(-28rem)'
+            carousel.style.transform = 'translateX(-24rem)'
         },
         moveLeft() {
             const carousel = this.$refs.items
