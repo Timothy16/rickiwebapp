@@ -4,7 +4,7 @@
         <div class="row row-reason">
             <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
                 <div class="d-flex d-space-m">
-                    <div><nuxt-img src="/img/years.svg" class="img-up" alt="" srcset="" /></div>
+                    <div><img src="/img/years.svg" class="img-up" alt="" srcset="" /></div>
                     <div class="padding-reason">
                         <div class="reason-header-1">5 Years of Exceptional Gift Card Trading Services.</div>
                         <p class="reason-text">For 5 years, we have been dedicated to providing exceptional gift card trading services.
@@ -15,7 +15,7 @@
             </div> 
             <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
                 <div class="d-flex d-space-m">
-                    <div><nuxt-img src="/img/secure.svg" class="img-up" alt="" srcset="" /></div>
+                    <div><img src="/img/secure.svg" class="img-up" alt="" srcset="" /></div>
                     <div class="padding-reason">
                         <div class="reason-header-1">Secure Gift Card Trading.</div>
                         <p class="reason-text">
@@ -26,7 +26,7 @@
             </div>    
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex d-space-m">
-                    <div><nuxt-img src="/img/always.svg" class=" img-up" alt="" srcset="" /></div>
+                    <div><img src="/img/always.svg" class=" img-up" alt="" srcset="" /></div>
                     <div class="padding-reason">
                         <div class="reason-header-1">Always Here for You</div>
                         <p class="reason-text">
@@ -37,7 +37,7 @@
             </div> 
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex d-space-m">
-                    <div><nuxt-img src="/img/counting.svg" class="img-up" alt="" srcset="" /></div>
+                    <div><img src="/img/counting.svg" class="img-up" alt="" srcset="" /></div>
                     <div class="padding-reason">
                         <div class="reason-header-1">7,000+ Satisfied Customers and Counting</div>
                         <p class="reason-text">

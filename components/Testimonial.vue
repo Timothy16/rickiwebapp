@@ -12,33 +12,33 @@
             <div class="carousel" style="transform: translateX(0rem); "  ref="items">
                 <div class="testimonail-p">
                     <div class="profile-p">
-                        <nuxt-img src="/img/ayorinde.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/ayorinde.svg" class="img-up" alt="" srcset="" />
                     </div>
                     <div class="profile-text">
                         The app is excellent and it truly does what it claims do. It is very simple to use and functional. The interface design and navigation are great. Keep it up!
                     </div>  
                     <div class="profile-star">
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/half-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/half-star.svg" class="img-up" alt="" srcset="" />
                     </div>
                     <h6>Ayorinde Olorunniyi</h6>
                 </div>
                 <div class="testimonail-p testi-p-3 ">
                     <div class="profile-p">
-                        <nuxt-img src="/img/david.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/david.svg" class="img-up" alt="" srcset="" />
                     </div>
                     <div class="profile-text">
                         1. The design is simple and user friendly 2. The rate the app offers is the best. 3.the transaction is fast. There is no delay in transaction. 4.the payment is fast. 5. I strongly recommend it.
                     </div>  
                     <div class="profile-star">
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
-                        <nuxt-img src="/img/half-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/full-star.svg" class="img-up" alt="" srcset="" />
+                        <img src="/img/half-star.svg" class="img-up" alt="" srcset="" />
                     </div>
                     <h6>DAVID OMADIVI</h6>
                 </div>
