@@ -46,5 +46,16 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxt/image-edge',
+        'nuxt-gtag'
     ],
+    gtag: {
+        id: 'G-TPQ5PQVFXP',
+        config: {
+            id: "G-TPQ5PQVFXP",
+            page_title: 'Ricki -; Trade your Giftcards for Instant Cash at the Speed of Light.',
+            params: {
+              send_page_view: true,
+            },
+        },
+    }
 })
