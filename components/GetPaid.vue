@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row get-paid">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="/img/getpaid.png" class="img-s-paid" data-aos="fade-right" data-aos-duration="800" alt="" srcset="" />
+                <div class="move-pic-m">
+                      <img src="/img/getpaid.png" class="img-s-paid" data-aos="fade-right" data-aos-duration="800" alt="" srcset="" />
+                </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="get-paid-text">
@@ -15,7 +17,7 @@
                             <img src="/img/Android.svg" class="img-fluid link-trans mobile-button"  alt="" srcset="" /> &nbsp;&nbsp;
                         </NuxtLink>
                         <NuxtLink to="https://apps.apple.com/us/app/id6444379776" target="_blank">
-                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> 
+                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button-p" alt="" srcset="" /> 
                         </NuxtLink>
                     </div>
                 </div>

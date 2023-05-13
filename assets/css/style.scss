@@ -257,7 +257,20 @@ html {
 
     @media only screen and (max-width: 578px) {
         margin-top: 1rem;
+        text-align: center;
     }
+    @media only screen and (max-width: 768px) {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    // .move-pic-m{
+    //     @media only screen and (max-width: 578px) {
+    //         left: 60px !important;
+    //         position: relative;
+    //         overflow-x: hidden;
+    //         width: 70%;
+    //     }
+    // }
     .img-s-paid{
         position: relative;
         left: -80px;
@@ -265,7 +278,7 @@ html {
         // width: 55rem;
 
         @media only screen and (max-width: 578px) {
-            left: 0 !important;
+            left: 0px !important;
             width: 100%;
            
         }
@@ -285,9 +298,11 @@ html {
 
         @media only screen and (max-width: 578px) {
             padding: .1rem;
+            text-align: center;
         }
         @media only screen and (max-width: 768px) {
             padding: .1rem;
+            text-align: center ;
         }
         @media only screen and (max-width: 1024px) and (max-width: 1249px) {
             padding: .1rem;
@@ -318,8 +333,13 @@ html {
             width: 100%;
             font-size: 1rem;
             line-height: 25px;
+            text-align: center;
         }
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+           text-align: center;
+        }
+        @media only screen and (max-width: 1024px) and (max-width: 1249px) {
             width: 100%;
         }
     }
@@ -356,6 +376,10 @@ html {
         @media only screen and (max-width: 578px) {
             font-size: 2.5rem;
             line-height: 50px;
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px) {
+            text-align: center;
         }
     }
     .rate-s-h{
@@ -390,7 +414,7 @@ html {
         font-size: 4rem;
         line-height: 100px;
         color: $secondaryColor;
-        text-align: center;
+        text-align: left;
         @media only screen and (max-width: 578px) {
             font-size: 2.5rem;
             line-height: 50px;
@@ -621,15 +645,7 @@ html {
 }
 // carousel
 .carousel{
-    // margin-top: 3rem;
-    // padding-top: 1rem;
-    // overflow-x: auto;
-    // display: flex;
-    // width: 100%;
-    // height: auto;
-    // cursor: context-menu;
-    // left: 0;
-
+   
     margin-top: 10rem;
     display: flex;
     width: max-content;
@@ -722,6 +738,14 @@ a{
     }
     @media only screen and (max-width: 768px) {
         width: 31%;
+    }
+}
+.mobile-button-p{
+    @media only screen and (max-width: 578px) {
+        width: 31% !important;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 33%;
     }
 }
 .mobile-button-trade{

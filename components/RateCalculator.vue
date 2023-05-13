@@ -15,7 +15,7 @@
                             <img src="/img/Android.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" /> &nbsp;&nbsp;
                         </NuxtLink>
                         <NuxtLink to="https://apps.apple.com/us/app/id6444379776" target="_blank">
-                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button" alt="" srcset="" />
+                            <img src="/img/AppleiOS.svg" class="img-fluid link-trans mobile-button-p" alt="" srcset="" />
                         </NuxtLink>
                     </div>
                 </div>
