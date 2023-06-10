@@ -49,9 +49,9 @@ export default defineNuxtConfig({
         'nuxt-gtag'
     ],
     gtag: {
-        id: 'G-TPQ5PQVFXP',
+        id: 'GTM-5RZX7W6',
         config: {
-            id: "G-TPQ5PQVFXP",
+            id: "GTM-5RZX7W6",
             page_title: 'Ricki -; Trade your Giftcards for Instant Cash at the Speed of Light.',
             params: {
               send_page_view: true,
